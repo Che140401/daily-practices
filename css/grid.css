@@ -1,0 +1,14 @@
+.container
+{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.container1
+{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.container1 .image
+{
+    grid-area: 1/1;
+}
